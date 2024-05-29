@@ -1,0 +1,70 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  form {
+    margin-top: 20px;
+    width: fit-content;
+    padding: 20px 20px;
+    background-color: green;
+    
+  }
+  
+  input {
+    padding: 6px 18px;
+    width: 150px;
+    border: 2px solid black;
+    border: 10px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 10px;
+  }
+  
+  label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+  }
+  
+  button.addTask,
+  button,
+  .updateTask {
+   
+    width: 50px;
+    color: white;
+    border: 3px solid transparent;
+    background-color:red;
+
+
+    border-radius: 3px;
+    
+  }
+  
+  button.del {
+    border-radius: 22px;
+    background-color: red;
+    color: white;
+  }
+  
+  button.edit {
+    border-radius: 22px;
+    background-color: orange;
+    color: black;
+  }
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20px;
+    border: 2px solid orange;
+    margin-bottom: 10px;
+  }
+  
+  .actionBtn {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+  }
